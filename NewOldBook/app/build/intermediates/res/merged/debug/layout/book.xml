@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<LinearLayout      
+    android:id="@+id/LinearLayout01"      
+    android:layout_width="fill_parent"      
+    xmlns:android="http://schemas.android.com/apk/res/android"      
+    android:layout_height="fill_parent"
+    android:orientation="vertical"    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp" >
+
+        <ImageView
+            android:id="@+id/iv_bookSurface_b"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+          
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tv_bookName_b_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="书名" />
+
+            <TextView
+                android:id="@+id/tv_bookName_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tv_author_b_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="作者" />
+
+            <TextView
+                android:id="@+id/tv_author_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tv_publishing_b_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出版社" />
+
+            <TextView
+                android:id="@+id/tv_publishing_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tv_number_b_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="版次" />
+
+            <TextView
+                android:id="@+id/tv_number_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_borrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="借阅"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>   <!-- From: file:/F:/Android/NewOldBook/app/src/main/res/layout/book.xml -->

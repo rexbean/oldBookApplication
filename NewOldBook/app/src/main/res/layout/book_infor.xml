@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<LinearLayout      
+    android:id="@+id/LinearLayout01"      
+    android:layout_width="fill_parent"      
+    xmlns:android="http://schemas.android.com/apk/res/android"      
+    android:layout_height="fill_parent"    >
+
+    <RelativeLayout
+        android:layout_width="110dp"
+        android:layout_height="98dp" >
+
+        <ImageView
+            android:id="@+id/iv_bookSuface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginTop="20dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_bookName_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="书名" />
+
+            <TextView
+                android:id="@+id/tv_bookName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_author_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="作者" />
+
+            <TextView
+                android:id="@+id/tv_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_publishing_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出版社" />
+
+            <TextView
+                android:id="@+id/tv_publishing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_number_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="版次" />
+
+            <TextView
+                android:id="@+id/tv_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </TableRow>
+
+    </TableLayout>
+          
+</LinearLayout>   

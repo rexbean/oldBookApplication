@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+     <TextView
+            android:id="@+id/tv_IP"
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="10dip"
+            android:gravity="bottom"
+            android:text="IP:"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_l_IP"
+        android:layout_width="260dp"
+        android:layout_height="40dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="10dip"
+        android:ems="10" >
+
+        <requestFocus android:layout_width="wrap_content" />
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_l_PORT"
+        android:layout_width="wrap_content"
+        android:layout_height="35dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="10dip"
+        android:gravity="bottom"
+        android:text="PORT:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_l_PORT"
+        android:layout_width="262dp"
+        android:layout_height="40dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="10dip"
+        android:ems="10"
+        android:maxLines="200"
+        android:password="true"
+        android:scrollHorizontally="true" />
+    
+    
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_Setting"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+>
+</LinearLayout><!-- From: file:/F:/Android/NewOldBook/app/src/main/res/layout/setting.xml -->

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<LinearLayout      
+    android:id="@+id/LinearLayout01"      
+    android:layout_width="fill_parent"      
+    xmlns:android="http://schemas.android.com/apk/res/android"      
+    android:layout_height="fill_parent"    >
+
+    <RelativeLayout
+        android:layout_width="110dp"
+        android:layout_height="86dp" >
+
+    <ImageView
+                android:layout_width="62.0dip"
+                android:layout_height="62.0dip"
+                android:layout_centerInParent="true"
+                android:contentDescription="@null"
+                android:src="@drawable/me_head_bg" />
+
+            <com.oldbook.android.widget.CircularImage
+                android:id="@+id/cover_user_photo"
+                android:layout_width="54.0dip"
+                android:layout_height="54.0dip"
+                android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" >
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_petname_chat_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="昵称" />
+
+            <TextView
+                android:id="@+id/tv_petname_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </TableRow>
+
+    </TableLayout>
+          
+</LinearLayout>   <!-- From: file:/F:/Android/NewOldBook/app/src/main/res/layout/chat_infor.xml -->

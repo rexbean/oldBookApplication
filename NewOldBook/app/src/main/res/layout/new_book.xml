@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<LinearLayout      
+    android:id="@+id/LinearLayout01"      
+    android:layout_width="fill_parent"      
+    xmlns:android="http://schemas.android.com/apk/res/android"      
+    android:layout_height="fill_parent"
+    android:orientation="vertical"    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp" >
+
+        <ImageView
+            android:id="@+id/iv_bookSurface_n"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+          
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tv_bookName_n_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="书名" />
+
+            <EditText
+                android:id="@+id/et_bookName_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tv_author_n_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="作者" />
+
+            <EditText
+                android:id="@+id/et_author_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tv_publishing_n_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出版社" />
+
+            <EditText
+                android:id="@+id/et_publishing_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tv_number_n_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="版次" />
+
+            <EditText
+                android:id="@+id/et_number_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="添加" />
+
+    </RelativeLayout>
+
+</LinearLayout>   

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\compile\android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="F:\Android\NewOldBook\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-a8e6dee5fd73589cc7da289625b44c5b45120d06.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.0.1\bd9b51a0188fc8f14bf840a0d326755545206116\okhttp-ws-3.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="bd9b51a0188fc8f14bf840a0d326755545206116">
+        <dex dex="F:\Android\NewOldBook\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.0.1-83d29f887cf5d86bb188227c93bf3f607e15ff47.jar" />
+    </item>
+    <item
+        jar="F:\Android\NewOldBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="F:\Android\NewOldBook\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-eb0dbdc39802e1c94458d0f1889aaa45fb0c5d2b.jar" />
+    </item>
+    <item
+        jar="F:\Android\NewOldBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="F:\Android\NewOldBook\app\build\intermediates\pre-dexed\debug\classes-86e2e27a6b3e59c5406bc5100702e5865a0531b6.jar" />
+    </item>
+    <item
+        jar="F:\Android\NewOldBook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="F:\Android\NewOldBook\app\build\intermediates\pre-dexed\debug\classes-48c58ba7a4fe1f8dbc14895c4dff2fc67b5c35ba.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="F:\Android\NewOldBook\app\build\intermediates\pre-dexed\debug\okio-1.6.0-c410569bd3ae660f2a7eceb3af69efc833b46b70.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.socket\socket.io-client\0.7.0\ce278c97bc9f74c7945d647f6d441d6013163362\socket.io-client-0.7.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ce278c97bc9f74c7945d647f6d441d6013163362">
+        <dex dex="F:\Android\NewOldBook\app\build\intermediates\pre-dexed\debug\socket.io-client-0.7.0-f9810be9cb4ce46ec2234f11cfcd638cf362bf93.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.socket\engine.io-client\0.7.0\c1b1d30e2d2231b2eae1438a44943a409b976dac\engine.io-client-0.7.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c1b1d30e2d2231b2eae1438a44943a409b976dac">
+        <dex dex="F:\Android\NewOldBook\app\build\intermediates\pre-dexed\debug\engine.io-client-0.7.0-6265feb40c883019b54a2130ee359eb930dd59f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.1\b34c1f2d993044656e87f88970b6818e99e886ba\okhttp-3.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="F:\Android\NewOldBook\app\build\intermediates\pre-dexed\debug\okhttp-3.0.1-6c4a13f1ae29fbf79d4daae798a189678a938639.jar" />
+    </item>
+
+</items>

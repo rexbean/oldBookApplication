@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/login_bg" >
+
+        <ImageView
+            android:id="@+id/friend_list_myImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1.0"
+            android:src="@drawable/me_head_bg" />
+
+        <com.oldbook.android.widget.CircularImage
+            android:id="@+id/cover_user_photo"
+            android:layout_width="64.0dip"
+            android:layout_height="64.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1.0" />
+
+        <TextView
+            android:id="@+id/tv_m_Petname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_m_Evaluation"
+            android:layout_alignTop="@+id/friend_list_myImg"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="rexbean"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+        
+       <TextView
+           android:id="@+id/tv_m_Evaluation"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/tv_m_Petname"
+           android:layout_toRightOf="@+id/cover_user_photo"
+           android:text="TextView" />
+
+       <Button
+           android:id="@+id/btn_addNewBook"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/friend_list_myImg"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="23dp"
+           android:text="添加新书" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/login_moremenu_back"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/tab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/tab1" />
+
+            <ImageView
+                android:id="@+id/tab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/tab2" />
+
+            <ImageView
+                android:id="@+id/tab3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/tab3" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/tab2_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="matrix"
+            android:src="@drawable/topbar_select" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bodylayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/Android/NewOldBook/app/src/main/res/layout/book_list.xml -->

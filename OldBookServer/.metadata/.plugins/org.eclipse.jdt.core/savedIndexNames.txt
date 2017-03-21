@@ -1,0 +1,14 @@
+INDEX VERSION 1.126+D:\inspiration\OldBookServer\.metadata\.plugins\org.eclipse.jdt.core
+3050656719.index
+2365583823.index
+3873038500.index
+527112023.index
+1304144787.index
+2054071069.index
+4291230315.index
+2762109125.index
+1134183671.index
+2661687338.index
+3992095161.index
+4026920261.index
+689947401.index

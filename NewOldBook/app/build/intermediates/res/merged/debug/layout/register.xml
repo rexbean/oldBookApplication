@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="137dp"
+    android:gravity="center" >
+
+    <ImageView
+        android:layout_width="82.0dip"
+        android:layout_height="82.0dip"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:src="@drawable/me_head_bg" />
+
+    <com.oldbook.android.widget.CircularImage
+        android:id="@+id/cover_user_photo"
+        android:layout_width="74.0dip"
+        android:layout_height="74.0dip"
+        android:layout_centerInParent="true" />
+    
+</RelativeLayout>
+
+
+     <TextView
+            android:id="@+id/tv_r_username"
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="10dip"
+            android:gravity="bottom"
+            android:text="帐号:"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_r_username"
+        android:layout_width="260dp"
+        android:layout_height="40dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="10dip"
+        android:ems="10" >
+
+        <requestFocus android:layout_width="wrap_content" />
+
+    </EditText>
+    
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="75dp" >
+
+    <TextView
+        android:id="@+id/tv_r_petname"
+        android:layout_width="wrap_content"
+        android:layout_height="35dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:gravity="bottom"
+        android:text="昵称:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_r_petname"
+        android:layout_width="262dp"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:ems="10" />
+
+</RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_r_password"
+        android:layout_width="wrap_content"
+        android:layout_height="35dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="10dip"
+        android:gravity="bottom"
+        android:text="密码:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_r_password"
+        android:layout_width="262dp"
+        android:layout_height="40dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="10dip"
+        android:ems="10"
+        android:maxLines="200"
+        android:password="true"
+        android:scrollHorizontally="true" />
+    
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="75dp" >
+
+    <TextView
+        android:id="@+id/tv_r_confirm_password"
+        android:layout_width="wrap_content"
+        android:layout_height="35dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:gravity="bottom"
+        android:text="确认密码:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_r_confirm_password"
+        android:layout_width="262dp"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="80dip"
+        android:layout_height="40dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="注册"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout><!-- From: file:/F:/Android/NewOldBook/app/src/main/res/layout/register.xml -->
